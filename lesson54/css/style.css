@@ -1,0 +1,40 @@
+body {
+    background: #262628;
+}
+
+.wrapper {
+    height: 100vh;
+}
+.text{
+color: white;
+font-family: "Arial", sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+
+.block {
+    min-height: 100px;
+    max-width: 50%;
+    display: flex;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    border-radius: 10px;
+}
+.circle{
+    left: 55%;
+    bottom: 150px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.white{
+    background: rgb(250, 245, 234);
+    position: fixed;
+}
+.red{
+    background: rgb(208, 6, 6);
+    position: fixed;
+}
+
